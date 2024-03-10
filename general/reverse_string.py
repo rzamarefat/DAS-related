@@ -2,7 +2,6 @@
 the sky is blue -> blue is sky the
 """
 
-
 def reverse_string(string):
     words = [w.strip() for w in string.split(" ")]
 
