@@ -11,7 +11,7 @@ divisible_by_b(14, 11) ➞ 22
 """
 
 
-def nex_number(a, b):
+def main(a, b):
     num = max(a, b)
     while True:
         if num % b == 0:
@@ -21,9 +21,9 @@ def nex_number(a, b):
 
 
 if __name__ == "__main__":
-    res = nex_number(17, 8)
+    res = main(17, 8)
     print(res)
-    res = nex_number(98, 3)
+    res = main(98, 3)
     print(res)
-    res = nex_number(14, 11)
+    res = main(14, 11)
     print(res)
